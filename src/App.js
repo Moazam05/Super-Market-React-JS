@@ -1,14 +1,20 @@
-import React from "react";
-// import logo from './logo.svg';
-// import "./App.css";
-import Home from "./components/Home";
+import React, { Component } from "react";
+import { Switch, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+import Home from "./components/Home";
+import Cart from "./components/Cart";
+
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/cart" exact component={Cart} />
+        </Switch>
+      </>
+    );
+  }
 }
 
 export default App;

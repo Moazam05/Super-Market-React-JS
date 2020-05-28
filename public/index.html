@@ -39,6 +39,17 @@
         $(".cross-holder").click(function(){
             $(".featured-categories-holder").removeClass("show");
         })
+           $('#add1').click(function () {
+            if ($(this).prev().val() < 3) {
+                $(this).prev().val(+$(this).prev().val() + 1);
+            }
+        });
+        $('#sub1').click(function () {
+            if ($(this).next().val() > 1) {
+                if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
+            }
+        });
+
     </script>
 
   </body>

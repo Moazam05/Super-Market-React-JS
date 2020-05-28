@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
-import { Link } from "react-router-dom";
-
-export class Home extends Component {
+class Sugar extends Component {
   render() {
     return (
       <div>
@@ -428,141 +426,10 @@ export class Home extends Component {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div className="product-container">
-                          <div className="img-holder">
-                            <a href="#">
-                              <img src="images/prod4.jpg" alt="" />
-                            </a>
-                            <div className="price-holder">
-                              <p>
-                                RS <br /> 120
-                              </p>
-                            </div>
-                          </div>
-                          <div className="product-title-holder sec-strt">
-                            <div className="title-wrap">
-                              Brown Sugar 2 kgs pack
-                            </div>
-                            <div className="stock-info">In stock</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div className="product-container">
-                          <div className="img-holder">
-                            <a href="#">
-                              <img src="images/prod5.jpg" alt="" />
-                            </a>
-                            <div className="price-holder">
-                              <p>
-                                RS <br /> 120
-                              </p>
-                            </div>
-                          </div>
-                          <div className="product-title-holder sec-strt">
-                            <div className="title-wrap">
-                              Brown Sugar 2 kgs pack
-                            </div>
-                            <div className="stock-info">In stock</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div className="product-container">
-                          <div className="img-holder">
-                            <a href="#">
-                              <img src="images/prod6.jpg" alt="" />
-                            </a>
-                            <div className="price-holder">
-                              <p>
-                                RS <br /> 120
-                              </p>
-                            </div>
-                          </div>
-                          <div className="product-title-holder sec-strt">
-                            <div className="title-wrap">
-                              Brown Sugar 2 kgs pack
-                            </div>
-                            <div className="stock-info">In stock</div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div className="view-all-prod sec-strt">
                     <a href="#">Browse all Cameras</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="new-items-wrapper sec-strt">
-            <div className="container">
-              <h3>New Items</h3>
-              <div className="row">
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-                  <div className="product-container">
-                    <div className="img-holder">
-                      <a href="#">
-                        <img src="images/prod7.jpg" alt="" />
-                      </a>
-                      <div className="new-holder">
-                        <p>NEW!</p>
-                      </div>
-                    </div>
-                    <div className="product-title-holder sec-strt">
-                      <div className="title-wrap">Brown Sugar 2 kgs pack</div>
-                      <div className="stock-info">In stock</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-                  <div className="product-container">
-                    <div className="img-holder">
-                      <a href="#">
-                        <img src="images/prod8.jpg" alt="" />
-                      </a>
-                      <div className="new-holder">
-                        <p>NEW!</p>
-                      </div>
-                    </div>
-                    <div className="product-title-holder sec-strt">
-                      <div className="title-wrap">Brown Sugar 2 kgs pack</div>
-                      <div className="stock-info">In stock</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-                  <div className="product-container">
-                    <div className="img-holder">
-                      <a href="#">
-                        <img src="images/prod9.jpg" alt="" />
-                      </a>
-                      <div className="new-holder">
-                        <p>NEW!</p>
-                      </div>
-                    </div>
-                    <div className="product-title-holder sec-strt">
-                      <div className="title-wrap">Brown Sugar 2 kgs pack</div>
-                      <div className="stock-info">In stock</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-                  <div className="product-container">
-                    <div className="img-holder">
-                      <a href="#">
-                        <img src="images/prod10.jpg" alt="" />
-                      </a>
-                      <div className="new-holder">
-                        <p>NEW!</p>
-                      </div>
-                    </div>
-                    <div className="product-title-holder sec-strt">
-                      <div className="title-wrap">Brown Sugar 2 kgs pack</div>
-                      <div className="stock-info">In stock</div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -726,4 +593,4 @@ export class Home extends Component {
   }
 }
 
-export default Home;
+export default Sugar;

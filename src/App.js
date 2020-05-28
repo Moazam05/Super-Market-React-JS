@@ -7,6 +7,8 @@ import SingUp from "./components/SingUp";
 import ProductDetail from "./components/ProductDetail";
 import StoreLocator from "./components/StoreLocator";
 
+import Sugar from "./pages/Sugar";
+
 class App extends Component {
   render() {
     return (
@@ -17,6 +19,7 @@ class App extends Component {
           <Route path="/singup" exact component={SingUp} />
           <Route path="/product-detail" exact component={ProductDetail} />
           <Route path="/store-locator" exact component={StoreLocator} />
+          <Route path="/sugar" exact component={Sugar} />
         </Switch>
       </>
     );

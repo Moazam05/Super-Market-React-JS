@@ -328,8 +328,8 @@ export class Home extends Component {
                     <h3>Featured</h3>
                     <ul>
                       <li>
-                        {/* <Link to="./sugar">Sugar</Link> */}
-                        <a href="#">Sugar</a>
+                        <Link to="./sugar">Sugar</Link>
+                        {/* <a href="#">Sugar</a> */}
                       </li>
                       <li>
                         <a href="#">Flour</a>
